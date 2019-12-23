@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+	width: 60%;
+	margin: 1em auto;
+}
+
+.flex-row-container {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.flex-column-container {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+h1 {
+	margin-top: 1em;
+}
+
+h1,h3 {
+	line-height: 0em;
+}
+
+/* Header
+***************************/
+
+header{
+	background: #4f90cd;
+}
+
+.profile-name, .profile-job , .profile-summary{
+	padding: 0 3em;
+	text-align: justify;
+}
+
+.profile-handles{
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.profile-handles{
+	background: #347fa0;
+}
+
+
+/* Main 
+***************************/
+
+
+
+/* Footer
+***************************/
+
+@media print {
+	body {
+		width: 100%;
+	}
+}
