@@ -1,11 +1,21 @@
 *{
 	box-sizing: border-box;
-	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-family: sans-serif;
 	text-align: justify;
 }
 
+.print-button {
+	color: white;
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	padding: 1em;
+	background: #4f90cd;
+	border-radius: 10px;;
+}
+
 body{
-	width: 70%;
+	width: 918px;
 	margin: 1em auto;
 	background: PERU;
 }
@@ -18,11 +28,19 @@ h1,h2,h3,h4,p {
 	margin: 2px;
 }
 
+a{
+	text-decoration: none;
+}
+
+/* .clicked{
+	color: red;
+} */
+
 .flex-row-container,.flex-column-container {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 
 .flex-row-container {
@@ -34,7 +52,7 @@ h1,h2,h3,h4,p {
 }
 
 .column-item{
-	margin: 0.5em;
+	margin: 0.3em 0;
 }
 
 h1 {
@@ -52,6 +70,10 @@ li::before {
 	color: #f04e41;
 	width: 1em;
 	margin-left: -1em;
+}
+
+li {
+	margin: 0.5em 0;
 }
 
 /* Header
@@ -93,6 +115,7 @@ h2{
 	text-decoration: underline;
 	text-transform: uppercase;
 	margin: 0.3em 0;
+	font-size: 1.5em;
 }
 
 main{
@@ -100,9 +123,17 @@ main{
 	background: white;
 }
 
+.company-name {
+	font-weight: 400;
+}
+
 .main-row-item {
 	padding: 1rem;
 } 
+
+.duration-result, .duration-place {
+	justify-content: space-between;
+}
 
 .duration-place-item,.duration-result-item {
 	font-style: italic;
@@ -118,9 +149,7 @@ main{
 }
 
 .profile-handles-item{
-	justify-content: flex-start;
 	width: fit-content;
-	flex-basis: 1;
 }
 
 .col-7{
@@ -151,6 +180,7 @@ main{
 
 .achievement-item p {
 	font-style: italic;
+	color: grey;
 }
 
 /* Footer
