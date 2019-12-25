@@ -7,7 +7,7 @@
 body{
 	width: 70%;
 	margin: 1em auto;
-	background: DARKSLATEGRAY;
+	background: PERU;
 }
 
 .body-container{
@@ -18,20 +18,19 @@ h1,h2,h3,h4,p {
 	margin: 2px;
 }
 
-.flex-row-container {
+.flex-row-container,.flex-column-container {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+	justify-content: space-between;
+}
+
+.flex-row-container {
 	flex-direction: row;
-	justify-content: space-around;
 }
 
 .flex-column-container {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
 	flex-direction: column;
-	justify-content: flex-start;
 }
 
 .column-item{
@@ -55,14 +54,6 @@ li::before {
 	margin-left: -1em;
 }
 
-/* li {
-	margin: 1em;
-} */
-
-/* h1,h2,h3,h4 {
-	line-height: 0;
-} */
-
 /* Header
 ***************************/
 
@@ -72,7 +63,9 @@ header{
 	color: white;
 } 
 
-.header-column-item {
+
+
+.header-column-item { /* For handle bar to stay from end to end */
 	margin: 0;
 }
 
@@ -110,10 +103,6 @@ main{
 .main-row-item {
 	padding: 1rem;
 } 
-
-.duration-place, .duration-result{
-	justify-content: space-between;
-}
 
 .duration-place-item,.duration-result-item {
 	font-style: italic;
@@ -159,6 +148,11 @@ main{
 	margin: 0.5em;
 	background: #f04e41;
 }
+
+.achievement-item p {
+	font-style: italic;
+}
+
 /* Footer
 ***************************/
 

@@ -13,14 +13,16 @@
 </head>
 <body>
 	<div class="body-container print">
+
+		<!-- Start Header ------------------------------------------------------------------------------------------------>
 		<header class="flex-column-container">
-			<div class="profile-name column-item header-column-item header-column-item1">
-				<h1>Name</h1>
+			<div class="column-item header-column-item header-column-item1 profile-name">
+				<h1>Ashutosh Maheshwari</h1>
 			</div>
-			<div class="profile-job column-item header-column-item header-column-item2">
-				<h3>Job Profile</h3>
+			<div class="column-item header-column-item header-column-item2 profile-job">
+				<h3>Senior Software Engineer</h3>
 			</div>
-			<div class="profile-summary column-item header-column-item header-column-item3">
+			<div class="column-item header-column-item header-column-item3 profile-summary">
 				<p class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
 					ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -29,34 +31,41 @@
 					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
 					mollit anim id est laborum.</p>
 			</div>
-			<div class="profile-handles flex-row-container column-item header-column-item header-column-item4">
-				<div class = "mail profile-handles-item row-item flex-row-container">
+			<div class="column-item header-column-item header-column-item4 profile-handles flex-row-container">
+				<div class = "row-item profile-handles-item flex-row-container">
 					<i class="material-icons">mail</i> <p>mail@email.com</p>
 				</div>
-				<div class = "mail profile-handles-item row-item flex-row-container">
+				<div class = "row-item profile-handles-item flex-row-container">
 					<i class="material-icons">phone</i> <p>9999999999</p>
 				</div>
-				<div class = "mail profile-handles-item row-item flex-row-container">
+				<div class = "row-item profile-handles-item flex-row-container">
 					<p> <span style="font-size: larger; font-weight: 800;">in</span> linkedin.com/in/linkedin-id</p>
 				</div>
-				<div class = "mail profile-handles-item row-item flex-row-container">
+				<div class = "row-item profile-handles-item flex-row-container">
 					<i class="material-icons">people</i> <p>github.com/git-id</p>
 				</div>
 			</div>
 		</header>
+
+		<!-- End Header -------------------------------------------------------------------------------------------------->
+
+		<!-- Start Main -------------------------------------------------------------------------------------------------->
+	
 		<main class="flex-row-container">
-			<div class="main-section row-item main-row-item main-row-item1 col-7 flex-column-container">
-				<div class="work-expirence column-item">
+
+			<!-- Main Section -->
+			<div class="row-item main-row-item main-row-item1 col-7 flex-column-container main-section">
+				<div class="column-item work-expirence">
 					<h2>Work Expirence</h2>
 					<div class="flex-column-container">
 						<div class="column-item expirence-item expirence-item1">
 							<h3 class="job-profile">Senior Software Engineer</h3>
 							<h4 class="company-name">ABC Company Name</h4>
 							<div class="duration-place flex-row-container">
-								<p class="row-item duration-place-item duration-place-item1 time-period">04/2018 - Present</p>
-								<p class="duration-place-item2 duration-place-item place">Bengaluru</p>
+								<p class="row-item duration-place-item duration-place-item1">04/2018 - Present</p>
+								<p class="row-item duration-place-item duration-place-item2">Bengaluru</p>
 							</div>
-							<ul class="expirence">
+							<ul class="expirence-description">
 								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
 									ad minim veniam.</li>
@@ -75,10 +84,10 @@
 							<h3 class="job-profile">Senior Software Engineer</h3>
 							<h4 class="company-name">ABC Company Name</h4>
 							<div class="duration-place flex-row-container">
-								<p class="row-item duration-place-item duration-place-item1 time-period"> 04/2018 - Present</p>
-								<p class="duration-place-item2 duration-place-item place">Bengaluru</p>
+								<p class="row-item duration-place-item duration-place-item1">04/2018 - Present</p>
+								<p class="row-item duration-place-item duration-place-item2">Bengaluru</p>
 							</div>
-							<ul class="expirence">
+							<ul class="expirence-description">
 								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
 									ad minim veniam.</li>
@@ -97,10 +106,10 @@
 							<h3 class="job-profile">Senior Software Engineer</h3>
 							<h4 class="company-name">ABC Company Name</h4>
 							<div class="duration-place flex-row-container">
-								<p class="row-item duration-place-item duration-place-item1 time-period">04/2018 - Present</p>
-								<p class="duration-place-item2 duration-place-item place">Bengaluru</p>
+								<p class="row-item duration-place-item duration-place-item1">04/2018 - Present</p>
+								<p class="row-item duration-place-item duration-place-item2">Bengaluru</p>
 							</div>
-							<ul class="expirence">
+							<ul class="expirence-description">
 								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
 									ad minim veniam.</li>
@@ -117,41 +126,41 @@
 						</div>
 					</div>
 				</div>
-				<div class="education column-item">
+				<div class="column-item education">
 					<h2>Education</h2>
 					<div class="flex-column-container">
-						<div class="column-item expirence-item expirence-item1">
+						<div class="column-item education-item education-item1">
 							<h3 class="job-profile">Examination/Major/Minor Name</h3>
 							<h4 class="company-name">School/College Name </h4>
 							<div class="duration-result flex-row-container">
-								<p class="row-item duration-result-item duration-result-item1 time-period">04/2018 - Present</p>
-								<p class="row-item duration-result-item duration-result-item2 result">Bengaluru</p>
+								<p class="row-item duration-result-item duration-result-item1">04/2018 - Present</p>
+								<p class="row-item duration-result-item duration-result-item2">Bengaluru</p>
 							</div>
-							<ul class="expirence">
+							<ul class="education-description">
 								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
 							</ul>
 						</div>
-						<div class="column-item expirence-item expirence-item1">
+						<div class="column-item education-item education-item1">
 							<h3 class="job-profile">Examination/Major/Minor Name</h3>
 							<h4 class="company-name">School/College Name </h4>
 							<div class="duration-result flex-row-container">
-								<p class="row-item duration-result-item duration-result-item1 time-period">04/2018 - Present</p>
-								<p class="row-item duration-result-item duration-result-item2 result">Bengaluru</p>
+								<p class="row-item duration-result-item duration-result-item1">04/2018 - Present</p>
+								<p class="row-item duration-result-item duration-result-item2">Bengaluru</p>
 							</div>
-							<ul class="expirence">
+							<ul class="education-description">
 								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
 							</ul>
 						</div>
-						<div class="column-item expirence-item expirence-item1">
+						<div class="column-item education-item education-item1">
 							<h3 class="job-profile">Examination/Major/Minor Name</h3>
 							<h4 class="company-name">School/College Name </h4>
 							<div class="duration-result flex-row-container">
-								<p class="row-item duration-result-item duration-result-item1 time-period">04/2018 - Present</p>
-								<p class="row-item duration-result-item duration-result-item2 result">Bengaluru</p>
+								<p class="row-item duration-result-item duration-result-item1">04/2018 - Present</p>
+								<p class="row-item duration-result-item duration-result-item2">Bengaluru</p>
 							</div>
-							<ul class="expirence">
+							<ul class="education-description">
 								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
 							</ul>
@@ -159,21 +168,24 @@
 					</div>
 				</div>
 			</div>
-			<div class="side-section row-item main-row-item main-row-item2 col-5 flex-column-container">
-				<div class="technical-language column-item">
+			<!-- End Main Section -->
+
+			<!-- Start Side Section -->
+			<div class="row-item main-row-item main-row-item2 col-5 flex-column-container side-section">
+				<div class="column-item technical-language">
 					<h2>Language</h2>
 					<ul class="flex-row-container language">
-						<li class="language-item language-item1 row-item">Python</li>
-						<li class="language-item language-item2 row-item">Java</li>
-						<li class="language-item language-item3 row-item">Cpp</li>
-						<li class="language-item language-item4 row-item">JavaScript</li>
-						<li class="language-item language-item5 row-item">CSS</li>
-						<li class="language-item language-item6 row-item">HTML</li>
+						<li class="row-item language-item language-item1">Python</li>
+						<li class="row-item language-item language-item2">Java</li>
+						<li class="row-item language-item language-item3">Cpp</li>
+						<li class="row-item language-item language-item4">JavaScript</li>
+						<li class="row-item language-item language-item5">CSS</li>
+						<li class="row-item language-item language-item6">HTML</li>
 					</ul>
 				</div>
-				<div class="personal-project column-item flex-column-container">
+				<div class="column-item flex-column-container personal-project">
 					<h2>Personal Projects</h2>
-					<div class="personal-project-item personal-project-item1 column-item">
+					<div class="column-item personal-project-item personal-project-item1">
 						<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
 						<h3>(01/2018 - 04/2018)</h3>
 						<ul class="project-details">
@@ -185,7 +197,7 @@
 								ad minim veniam.</li>
 						</ul>
 					</div>
-					<div class="personal-project-item personal-project-item2 column-item">
+					<div class="column-item personal-project-item personal-project-item2">
 						<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
 						<h3>(01/2018 - 04/2018)</h3>
 						<ul class="project-details">
@@ -197,7 +209,7 @@
 								ad minim veniam.</li>
 						</ul>
 					</div>
-					<div class="personal-project-item personal-project-item3 column-item">
+					<div class="column-item personal-project-item personal-project-item3">
 						<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
 						<h3>(01/2018 - 04/2018)</h3>
 						<ul class="project-details">
@@ -210,7 +222,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="achievements column-item flex-column-container">
+				<div class="column-item flex-column-container achievements">
 					<h2>Achievements</h2>
 					<div class="column-item achievement-item">
 						<h4>Lorem ipsum dolor sit amet.</h4>
@@ -225,21 +237,21 @@
 						<p>This is the section for short description about achievement</p>
 					</div>
 				</div>
-				<div class="intrests-list column-item">
+				<div class="column-item intrests-list">
 					<h2>Intrests</h2>
 					<ul class="flex-row-container intrest">
-						<li class="intrest-item intrest-item1 row-item">Web Designing</li>
-						<li class="intrest-item intrest-item2 row-item">Theatre</li>
-						<li class="intrest-item intrest-item3 row-item">Billiards</li>
-						<li class="intrest-item intrest-item4 row-item">Table Tennis</li>
-						<li class="intrest-item intrest-item5 row-item">Movies</li>
+						<li class="row-item intrest-item intrest-item1">Web Designing</li>
+						<li class="row-item intrest-item intrest-item2">Theatre</li>
+						<li class="row-item intrest-item intrest-item3">Billiards</li>
+						<li class="row-item intrest-item intrest-item4">Table Tennis</li>
+						<li class="row-item intrest-item intrest-item5">Movies</li>
 					</ul>
 				</div>
 			</div>
+			<!-- End Side Section -->
 		</main>
-		<footer>
+		<!-- End Main ----------------------------------------------------------------------------------------------------->
 
-		</footer>
 		<script src="script/main.js"></script>
 	</div>	
 </body>
