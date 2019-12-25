@@ -22,7 +22,8 @@
 body{
 	width: 70%;
 	margin: 1em auto;
-	background: #424242;
+	/* background: #424242; */
+	background: linear-gradient(180deg, #212121 5%, white 90%);
 }
 
 .body-container{
