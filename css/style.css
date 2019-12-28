@@ -45,7 +45,6 @@ a{
 .flex-row-container,.flex-column-container {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
 	justify-content: flex-start;
 }
 
