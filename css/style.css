@@ -165,16 +165,16 @@ main{
 	flex-basis: calc(5/12 * 100%);
 }
 
-.language-item::before , .intrest-item::before {
+.language-item::before , .interest-item::before {
 	display: none;
 }
 
-.language,.intrest{
+.language,.interest{
 	padding: 0;
 	justify-content: flex-start;
 }
 
-.language-item , .intrest-item {
+.language-item , .interest-item {
 	color: white;
 	border:  #f04e41 1px solid;
 	border-radius: 4px;
