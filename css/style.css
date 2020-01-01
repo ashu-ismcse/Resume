@@ -10,7 +10,7 @@
 	bottom: 1em;
 	right: 1em;
 	padding: 1em;
-	background: rgba(0,0,0,30%);
+	background: rgba(0,0,0,50%);
 	border-radius: 3px;
 	/* backdrop-filter: blur(100px); */
 }
@@ -35,8 +35,13 @@ h1,h2,h3,h4,p {
 	margin: 2px;
 }
 
-a{
+a {
 	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	text-shadow: 1px 3px 5px grey;
 }
 
 /* .clicked{
@@ -59,6 +64,10 @@ a{
 
 .column-item{
 	margin: 0.3em 0;
+}
+
+.row-item {
+	align-items: center;
 }
 
 h1 {
@@ -129,6 +138,10 @@ main{
 	background: white;
 }
 
+main a{
+	color: #4f90cd;
+}
+
 .company-name {
 	font-weight: 400;
 }
@@ -189,7 +202,7 @@ main{
 	color: grey;
 }
 
-/* Footer
+/* Media Query
 ***************************/
 
 @media print {
