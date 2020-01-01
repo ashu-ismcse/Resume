@@ -4,7 +4,7 @@
 	text-align: justify;
 }
 
-#print-button {
+#print-button , #edit-button {
 	color: white;
 	position: fixed;
 	bottom: 1em;
@@ -15,16 +15,16 @@
 	/* backdrop-filter: blur(100px); */
 }
 
-#print-button a {
-	text-decoration: none;
-	color: white;
+#edit-button {
+	left: 1em;
+	width: fit-content;
 }
 
 body{
 	width: 70%;
 	margin: 1em auto;
 	/* background: #424242; */
-	background: linear-gradient(180deg, #FFD54F 5%, #FFA000 99%);
+	background: linear-gradient(var(--gradient));
 }
 
 .body-container{
@@ -82,7 +82,7 @@ li::before {
 	content: "\2022";
 	font-weight: 1000;
 	display: inline-block;
-	color: #4f90cd;
+	color: var(--body-special-color);
 	width: 1em;
 	margin-left: -1em;
 }
@@ -95,7 +95,7 @@ li {
 ***************************/
 
 header{
-	background: #374458;
+	background: var(--header-main-background);
 	margin-bottom: 0.25em;
 	color: white;
 } 
@@ -112,7 +112,7 @@ header{
 }
 
 .profile-handles{
-	background: #2b343f;
+	background: var(--header-handles-background);
 	justify-content: space-around;
 	padding: 1.25em;
 }
@@ -126,7 +126,7 @@ header{
 ***************************/
 
 h2{
-	color: #4f90cd;
+	color: var(--body-special-color);
 	text-decoration: underline;
 	text-transform: uppercase;
 	margin: 0.3em 0;
@@ -139,7 +139,7 @@ main{
 }
 
 main a{
-	color: #4f90cd;
+	color: var(--body-special-color);
 }
 
 .company-name {
@@ -156,7 +156,7 @@ main a{
 
 .duration-place-item,.duration-result-item {
 	font-style: italic;
-	color: #4f90cd;
+	color: var(--body-special-color);
 }
 
 /* .experience-item,.personal-project-item{
@@ -190,11 +190,11 @@ main a{
 
 .language-item , .interest-item {
 	color: white;
-	border:  #4f90cd 1px solid;
+	border:  var(--body-special-color) 1px solid;
 	border-radius: 4px;
 	padding: .5em;
 	margin: 0.5em;
-	background: #4f90cd;
+	background: var(--body-special-color);
 }
 
 .achievement-item p {
@@ -235,6 +235,6 @@ main a{
 	}
 
 	a{
-		color: #4f90cd
+		color: var(--body-special-color)
 	}
 }

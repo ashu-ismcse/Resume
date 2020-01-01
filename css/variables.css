@@ -1,0 +1,7 @@
+:root {
+    --header-main-background: #374458;
+    --header-handles-background: #2b343f;
+    --header-color: white;
+    --body-special-color: firebrick;
+    --gradient: 180deg, #FFD54F 5%, #FFA000 99%;
+}
