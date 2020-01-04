@@ -20,16 +20,18 @@ edit_button.addEventListener('click' , () => {
 	if(isEditPossible == false) {
 		isEditPossible = true;
 		edit_button.innerHTML = `
-		<i class="material-icons">save</i>
-		<p class="row-item">Save</p>
+		<p class="row-item">
+		<i class="fa fa-save"></i>Save
+		</p>
 		`;
 	} else {
 		// if any content is editable then make contentEditable false
 		body.contentEditable = "false";
 		isEditPossible = false;
 		edit_button.innerHTML = `
-		<i class="material-icons">create</i>
-		<p class="row-item">Edit</p>
+		<p class="row-item">
+		<i class="fa fa-edit"></i>
+		Edit</p>
 		`;
 	}
 });

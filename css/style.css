@@ -4,6 +4,10 @@
 	text-align: justify;
 }
 
+i {
+	padding: 5px;
+}
+
 #print-button , #edit-button {
 	color: white;
 	position: fixed;
