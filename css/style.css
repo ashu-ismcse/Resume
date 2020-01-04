@@ -266,7 +266,7 @@ main a{
 		visibility: hidden;
 	}
 
-	#print-button {
+	#print-button,#edit-button {
 		visibility: hidden;
 	}
 
