@@ -62,7 +62,7 @@ h1,h2,h3,h4,p {
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: white;
 }
 
 a:hover{
@@ -289,7 +289,7 @@ main a{
 		margin: 0.1em;
 	}
 
-	a{
+	main a{
 		color: var(--body-special-color)
 	}
 }
