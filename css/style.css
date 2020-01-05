@@ -14,9 +14,22 @@ i {
 	bottom: 1em;
 	right: 1em;
 	padding: 1em;
-	background: rgba(0,0,0,50%);
+	background: rgba(0,0,0,30%);
 	border-radius: 3px;
-	/* backdrop-filter: blur(100px); */
+	transition-duration: 500ms;
+	transition-property: background, border-radius , color , box-shadow;
+}
+
+#print-button:hover , #edit-button:hover {
+	box-shadow: 5px 5px 5px rgba(0,0,0,80%);
+	background: rgba(0,0,0,70%);
+	border-radius: 15px;
+}
+
+#print-button:active , #edit-button:active {
+	transition-duration: 0.2s;
+	background: rgba(0,0,0,100%);
+	box-shadow: none;
 }
 
 #edit-button {
@@ -62,11 +75,12 @@ h1,h2,h3,h4,p {
 
 a {
 	text-decoration: none;
+	transition-duration: 0.5s;
 	color: white;
 }
 
 a:hover{
-	text-shadow: 1px 3px 5px grey;
+	text-shadow: 1px 3px 20px black;
 }
 
 /* .clicked{
@@ -243,6 +257,7 @@ main a{
 	justify-content: flex-start;
 }
 
+
 .language-item , .interest-item {
 	color: white;
 	border:  var(--body-special-color) 1px solid;
@@ -250,7 +265,13 @@ main a{
 	padding: .5em;
 	margin: 0.5em;
 	background: var(--body-special-color);
+	transition-property: box-shadow;
+	transition-duration: 300ms;
 }
+
+.language-item:hover , .interest-item:hover {
+	box-shadow: 3px 3px 5px var(--body-special-color);
+} 
 
 .achievement-item p {
 	font-style: italic;
