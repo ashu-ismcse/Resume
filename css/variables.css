@@ -1,7 +1,8 @@
 :root {
-    --header-main-background: #374458;
-    --header-handles-background: #2b343f;
+    --primary-color-dark: #004ba0;
+    --primary-color: #1976d2;
     --header-color: white;
-    --body-special-color: firebrick;
+    --primary-color-light: #63a4ff;
+    --body-special-color: #004ba0;
     --gradient: 180deg, #FFD54F 5%, #FFA000 99%;
 }

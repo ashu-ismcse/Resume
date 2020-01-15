@@ -75,7 +75,7 @@ h1,h2,h3,h4,p {
 
 a {
 	text-decoration: none;
-	transition-duration: 0.5s;
+	transition-duration: 500ms;
 	color: white;
 }
 
@@ -134,7 +134,7 @@ li {
 ***************************/
 
 header{
-	background: var(--header-main-background);
+	background: var(--primary-color-dark);
 	margin-bottom: 0.25em;
 	color: white;
 } 
@@ -158,7 +158,7 @@ header{
 }
 
 .profile-handles{
-	background: var(--header-handles-background);
+	background: var(--primary-color);
 	justify-content: space-around;
 	padding: 1.25em;
 	align-items: flex-end;
@@ -167,6 +167,15 @@ header{
 .profile-handles-item{
 	width: fit-content;
 	margin: 0.3rem 0;
+	transition: transform 200ms;
+}
+
+.profile-handles-item:hover {
+	transform: translate(-1px , -1px);
+}
+
+.profile-handles-item:active {
+	transform: translate(1px , 1px);
 }
 
 @media screen and (max-width: 900px) {
@@ -261,17 +270,17 @@ main a{
 
 .language-item , .interest-item {
 	color: white;
-	border:  var(--body-special-color) 1px solid;
+	border:  var(--primary-color-light) 1px solid;
 	border-radius: 4px;
 	padding: .5em;
 	margin: 0.5em;
-	background: var(--body-special-color);
-	transition-property: box-shadow;
-	transition-duration: 300ms;
+	background: var(--primary-color-light);
+	transition: box-shadow 300ms, transform 300ms;
 }
 
 .language-item:hover , .interest-item:hover {
 	box-shadow: 3px 3px 5px var(--body-special-color);
+	transform: translate(-1px , -1px);
 } 
 
 .achievement-item p {
