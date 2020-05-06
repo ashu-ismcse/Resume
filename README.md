@@ -1,2 +1,2 @@
 #Resume
-[Ashutosh Maheshwari Web Resume link](https://www.linkedin.com/in/maheshwari-ashutosh/)
+[Ashutosh Maheshwari Web Resume link](https://ashu-ismcse.github.io/Resume/)
