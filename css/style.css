@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: 'Calibri';
 	text-align: justify;
 }
 
@@ -76,7 +76,7 @@ h1,h2,h3,h4,p {
 a {
 	text-decoration: none;
 	transition-duration: 500ms;
-	color: white;
+	color: rgb(70, 85, 45);
 }
 
 a:hover{
@@ -136,7 +136,7 @@ li {
 header{
 	background: var(--primary-color-dark);
 	margin-bottom: 0.25em;
-	color: white;
+	color: rgb(70, 85, 45);
 } 
 
 
@@ -286,6 +286,10 @@ main a{
 .achievement-item p {
 	font-style: italic;
 	color: grey;
+}
+
+.main-section {
+	align-items: flex-start;
 }
 
 /* Media Query
