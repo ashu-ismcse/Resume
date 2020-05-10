@@ -4,5 +4,5 @@
     --header-color: black;
     --primary-color-light: rgb(177, 191, 155);
     --body-special-color: rgb(70, 85, 45);
-    --gradient: 180deg, rgb(240, 207, 143) 5%, rgb(250, 249, 249) 99%;
+    --gradient: 180deg, #83e9d2 5%, #fffff4 99%;
 }
