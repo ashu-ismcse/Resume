@@ -1,2 +1,2 @@
 #Resume
-[Web Resume link](https://ashu-ismcse.github.io/Resume/)
+[Web Resume link](https://maheshwari-ashutosh.github.io/Resume/)
