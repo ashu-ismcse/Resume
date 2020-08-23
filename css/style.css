@@ -8,6 +8,12 @@ i {
 	padding: 5px;
 }
 
+hr {
+	height: 1px;
+	background-color: #eee;
+	border: 0 solid #eee;
+}
+
 #print-button , #edit-button {
 	color: white;
 	position: fixed;
